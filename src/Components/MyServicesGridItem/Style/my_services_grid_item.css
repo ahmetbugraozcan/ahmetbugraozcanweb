@@ -1,0 +1,31 @@
+.grid-item-container {
+display: flex;
+align-items: center;
+justify-content: start;
+flex-direction: column;
+color: white;
+width: 240px;
+}
+
+.grid-item-title {
+font-size: 24px;
+margin-bottom: 10px;
+
+}
+
+.grid-item-subtitle {
+font-size: 18px;
+color: rgb(236, 236, 236);
+}
+
+.grid-item-image {
+    width: 90px;
+    height: 90px;
+    font-size: 60px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+}

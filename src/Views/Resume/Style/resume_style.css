@@ -1,0 +1,46 @@
+#resume-body {
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    padding-top: 3em;
+    min-height: 100vh;
+    margin: 0;
+    margin-bottom: 80px ;
+}
+
+.time-line-header {
+    background: #e6e6e6;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+#my-resume-timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+    position: relative;
+}
+
+#my-resume-timeline::before{
+    top: 20px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 2px;
+    background-color: #afafaf;
+    left: 50%;
+    margin-left: 0px;
+}
+
+#my-resume-timeline li {
+    position: relative;
+}
+
+
+
+
