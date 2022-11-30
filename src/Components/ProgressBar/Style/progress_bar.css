@@ -1,0 +1,50 @@
+.progress-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.progress {
+    background-color: #757575;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 6px;
+}
+
+.progress-bar {
+    background-color: #212ff3;
+    box-shadow: none;
+    height: 100%;
+}
+
+
+@-webkit-keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0;
+   }
+    to {
+        background-position: 0 0;
+   }
+}
+@keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0;
+   }
+    to {
+        background-position: 0 0;
+   }
+}
+
+.progress.active .progress-bar, .progress-bar.active {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-striped .progress-bar, .progress-bar-striped {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 40px 40px;
+}

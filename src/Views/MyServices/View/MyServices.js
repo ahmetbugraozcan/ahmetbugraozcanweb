@@ -3,9 +3,20 @@ import MyServicesGridItem from "../../../Components/MyServicesGridItem/View/MySe
 import { BiBrushAlt } from "react-icons/bi";
 import { AiOutlineMobile, AiOutlineExperiment } from "react-icons/ai";
 import { RiAppStoreLine } from "react-icons/ri";
+import { useInView } from "react-intersection-observer";
 export default function MyServices() {
+  const [ref, inView] = useInView({
+    /* Optional options */
+    triggerOnce: true,
+    rootMargin: "0px 0px",
+  });
+
   return (
-    <div id="my-services">
+    <div
+      ref={ref}
+      id="my-services"
+      className={`${inView && "animate__animated animate__fadeInUp"}`}
+    >
       <h1 className="my-services-title">Servislerim</h1>
       <div className="my-services-grid-container">
         <MyServicesGridItem
