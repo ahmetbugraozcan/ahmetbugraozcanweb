@@ -1,0 +1,30 @@
+.works-container {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    min-height: 100vh;
+    padding-bottom: 120px;
+}
+
+.works-title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 80%;
+
+}
+
+.works-grid-item {
+    background-color: #333;
+    cursor: pointer;
+    width: 100%;
+    aspect-ratio: 1;
+}
