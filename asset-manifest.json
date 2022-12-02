@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.21ea6005.css",
-    "main.js": "/static/js/main.8eac0938.js",
-    "static/js/787.af2d2699.chunk.js": "/static/js/787.af2d2699.chunk.js",
-    "static/media/bgsetup.jpeg": "/static/media/bgsetup.8a161d3dba6afce2e6f8.jpeg",
-    "static/media/me.jpeg": "/static/media/me.fefc1b28d3106c453e43.jpeg",
-    "index.html": "/index.html",
-    "main.21ea6005.css.map": "/static/css/main.21ea6005.css.map",
-    "main.8eac0938.js.map": "/static/js/main.8eac0938.js.map",
-    "787.af2d2699.chunk.js.map": "/static/js/787.af2d2699.chunk.js.map"
+    "main.css": "/ahmetbugraozcanweb/static/css/main.5022580d.css",
+    "main.js": "/ahmetbugraozcanweb/static/js/main.0eabd28d.js",
+    "static/js/787.af2d2699.chunk.js": "/ahmetbugraozcanweb/static/js/787.af2d2699.chunk.js",
+    "static/media/bgsetup.jpeg": "/ahmetbugraozcanweb/static/media/bgsetup.8a161d3dba6afce2e6f8.jpeg",
+    "static/media/me.jpeg": "/ahmetbugraozcanweb/static/media/me.fefc1b28d3106c453e43.jpeg",
+    "index.html": "/ahmetbugraozcanweb/index.html",
+    "main.5022580d.css.map": "/ahmetbugraozcanweb/static/css/main.5022580d.css.map",
+    "main.0eabd28d.js.map": "/ahmetbugraozcanweb/static/js/main.0eabd28d.js.map",
+    "787.af2d2699.chunk.js.map": "/ahmetbugraozcanweb/static/js/787.af2d2699.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21ea6005.css",
-    "static/js/main.8eac0938.js"
+    "static/css/main.5022580d.css",
+    "static/js/main.0eabd28d.js"
   ]
 }
