@@ -1,0 +1,65 @@
+.works-grid-item {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    min-height: 300px;
+}
+
+
+
+.works-icon {
+    color: black;
+    font-size: 60px;
+}
+
+.works-item-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 24px;
+}
+
+.works-item-subtitle {
+    color: grey;
+    font-size: 16px;
+    max-lines: 4;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis,
+}
+
+.works-item-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 100%;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.works-item-footer-icon {
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease-in-out;
+    object-fit: fill;
+    background-size: cover;
+}
+
+.appstore-image {
+    background-image: url("../../../../assets/images/app-store.png");
+}
+
+ .playstore-image {
+    background-image: url("../../../../assets/images/playstore.png");
+}
+
+.works-item-footer-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

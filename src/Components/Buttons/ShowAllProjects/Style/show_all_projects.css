@@ -1,0 +1,19 @@
+.works-all-projects-link {
+    margin-top: 40px;
+    color: orange;
+    font-size: 20px;
+    background-color: white;
+    padding: 12px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none !important;
+}
+.works-all-projects-link:visited,.works-all-projects-link:focus,.works-all-projects-link:hover,.works-all-projects-link:active {
+    color: orange;
+    text-decoration: none !important;
+}  
+
+.works-all-projects-link:hover {
+    transform: scale(0.95);
+}

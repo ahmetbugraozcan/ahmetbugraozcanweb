@@ -16,7 +16,7 @@ function App() {
       <MyServices />
       <SkillsView />
       <WorksView />
-      <MediumPostsView />
+      {/* <MediumPostsView /> */}
     </div>
   );
 }
