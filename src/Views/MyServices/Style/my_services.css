@@ -24,8 +24,10 @@
     }
 }
 
+
 @media (max-width: 710px) {
     .my-services-grid-container {
         grid-template-columns: 1fr;
     }
 }
+

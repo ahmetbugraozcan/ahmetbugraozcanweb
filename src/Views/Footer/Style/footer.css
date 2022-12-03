@@ -1,0 +1,17 @@
+.footer-container {
+    display: flex;
+    background-color: orange;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
+    padding-top: 18px;
+
+}
+
+.footer-text {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+}

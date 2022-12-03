@@ -18,12 +18,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     color: black;
-    font-size: 24px;
+    font-size: 1.4em;
 }
 
 .works-item-subtitle {
     color: grey;
-    font-size: 16px;
+    font-size: 1em;
     max-lines: 4;
     line-clamp: 4;
     -webkit-line-clamp: 4;
