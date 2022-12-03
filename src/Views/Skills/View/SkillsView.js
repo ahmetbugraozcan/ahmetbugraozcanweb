@@ -23,22 +23,22 @@ export default function SkillsView() {
     },
     {
       skill: "Android",
-      percentage: 30,
+      percentage: 35,
       color: "#d35400",
     },
     {
       skill: "React",
-      percentage: 50,
+      percentage: 60,
       color: "#8e44ad",
     },
     {
       skill: "Node",
-      percentage: 60,
+      percentage: 30,
       color: "#27ae60",
     },
     {
       skill: "Firebase",
-      percentage: 40,
+      percentage: 60,
       color: "#2F3C4F",
     },
   ];

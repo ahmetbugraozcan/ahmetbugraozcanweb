@@ -43,7 +43,7 @@ export default function WorksView() {
 
   return (
     <div className="works-container">
-      <h1 className="works-title">Works</h1>
+      <h1 className="works-title">Çalışmalarım</h1>
       <div className="works-grid">
         {projectsData.map((item, index) => (
           <WorksItem item={item} key={index} />
