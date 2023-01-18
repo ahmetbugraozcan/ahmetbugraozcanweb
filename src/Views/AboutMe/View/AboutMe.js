@@ -43,10 +43,9 @@ export default function AboutMe() {
           <p className="about-me-content-paragraph">
             Ben Ahmet Buğra. Şu anda (2022 Kasım) Sivas Cumhuriyet Üniversitesi
             Bilgisayar Mühendisliği 4.Sınıf öğrencisiyim. 2.5 yıllık bir süredir
-            Flutter ile mobil uygulamalar geliştiriyorum. Bu süreç zarfında
+            <b> Flutter</b> ile mobil uygulamalar geliştiriyorum. Bu süreç zarfında
             Android, React Native gibi teknolojiler ile de mobil uygulama
-            geliştirdim. Şu anda Flutter ile projeler geliştirmeye devam ederken
-            SwiftUI öğreniyorum. Hedefim SwiftUI'da kendimi daha da geliştirip
+            geliştirdim. Şu anda <b>UIKit</b> ve <b>SwiftUI</b> ile iOS uygulama geliştirmeyi öğreniyorum. Hedefim native <b >iOS</b> tarafında kendimi daha da geliştirip
             donanımlı bir mobil geliştirici olarak mezun olmak.
             <br />
             <br />

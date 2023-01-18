@@ -51,11 +51,15 @@
     background-size: cover;
 }
 
+.github-image {
+    background-image: url("../../../../assets/images/github.png");
+}
+
 .appstore-image {
     background-image: url("../../../../assets/images/app-store.png");
 }
 
- .playstore-image {
+.playstore-image {
     background-image: url("../../../../assets/images/playstore.png");
 }
 

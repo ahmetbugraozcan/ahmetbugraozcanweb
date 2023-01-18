@@ -30,11 +30,14 @@
     text-align: start;
 }
 
+.about-me-content-paragraph>b {
+    color: orange
+}
 
 .about-me-li-container {
     margin: 0;
     flex: 1;
-    list-style: none; 
+    list-style: none;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -42,17 +45,17 @@
 }
 
 .about-me-li-container li {
-        width: 100%;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        list-style: none;
-        padding: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 10px 0;
 }
 
 
 
-.about-me-li-key{
+.about-me-li-key {
     font-weight: bold;
     margin-right: 1em;
     width: 30%;
@@ -64,5 +67,3 @@
     color: grey;
     font-size: .6em;
 }
-
-

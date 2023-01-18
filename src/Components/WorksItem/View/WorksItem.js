@@ -11,9 +11,8 @@ export default function WorksItem(props) {
   return (
     <div
       ref={ref}
-      className={`works-grid-item ${
-        inView && "animate__animated animate__fadeInUp"
-      }`}
+      className={`works-grid-item ${inView && "animate__animated animate__fadeInUp"
+        }`}
     >
       <span className="works-icon">
         {props.item.icon ?? <AiOutlineMobile />}

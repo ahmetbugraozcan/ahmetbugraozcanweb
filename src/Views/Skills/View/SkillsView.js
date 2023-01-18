@@ -17,8 +17,13 @@ export default function SkillsView() {
       color: "#2980b9",
     },
     {
+      skill: "UIKit",
+      percentage: 60,
+      color: "#c0392b",
+    },
+    {
       skill: "SwiftUI",
-      percentage: 40,
+      percentage: 60,
       color: "#c0392b",
     },
     {
